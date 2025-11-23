@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WakiVo – Account Deletion Request</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+        :root {
+            --bg: #f7f9fc;
+            --card-bg: #ffffff;
+            --text: #1b1f24;
+            --subtext: #4d5566;
+            --primary: #556cf0;
+            --radius: 16px;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Inter", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 760px;
+            width: 100%;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 40px;
+            box-shadow: var(--shadow);
+            animation: fadeIn 0.6s ease;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 16px;
+            color: var(--subtext);
+        }
+
+        .section-title {
+            margin-top: 32px;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: var(--subtext);
+        }
+
+        .email-box {
+            background: var(--primary);
+            padding: 14px 18px;
+            color: #fff;
+            display: inline-block;
+            border-radius: 10px;
+            margin: 10px 0 25px 0;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(85,108,240,0.3);
+            transition: 0.3s;
+        }
+
+        .email-box:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 26px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>WakiVo – Account Deletion Request</h1>
+
+        <p>If you would like to delete your WakiVo account, you can submit a deletion request using the email below:</p>
+
+        <div class="email-box">
+            support@yourapp.com
+        </div>
+
+        <p>Please make sure to send your request from the <strong>same email address</strong> used to create your account so we can verify ownership.</p>
+
+        <h2 class="section-title">Data That Will Be Deleted</h2>
+        <ul>
+            <li>User account</li>
+            <li>Email address</li>
+            <li>Password</li>
+            <li>Voice messages and audio files</li>
+            <li>Profile data</li>
+        </ul>
+
+        <h2 class="section-title">Data That May Be Temporarily Retained</h2>
+        <p>For security or legal purposes, the following information may be retained for up to <strong>30 days</strong> before being permanently removed:</p>
+        <ul>
+            <li>Security logs</li>
+            <li>System logs</li>
+            <li>Information required to prevent fraud or misuse</li>
+        </ul>
+
+        <h2 class="section-title">Processing Time</h2>
+        <p>Your deletion request will be processed within <strong>7–30 days</strong>.  
+        You will receive a confirmation once the deletion is complete.</p>
+    </div>
+</body>
+</html>
